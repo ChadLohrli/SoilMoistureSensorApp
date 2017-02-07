@@ -47,7 +47,6 @@
 		8C18E2371E4A804000E3D22D /* SoilMoistureSensorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoilMoistureSensorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C18E23B1E4A804000E3D22D /* SoilMoistureSensorAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoilMoistureSensorAppUITests.swift; sourceTree = "<group>"; };
 		8C18E23D1E4A804000E3D22D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8C18E2491E4A917900E3D22D /* SensorCode.ino */ = {isa = PBXFileReference; lastKnownFileType = text; name = SensorCode.ino; path = ../../Programming/Arduino/SensorCode/SensorCode.ino; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +103,6 @@
 				8C18E2221E4A804000E3D22D /* Assets.xcassets */,
 				8C18E2241E4A804000E3D22D /* LaunchScreen.storyboard */,
 				8C18E2271E4A804000E3D22D /* Info.plist */,
-				8C18E2491E4A917900E3D22D /* SensorCode.ino */,
 			);
 			path = SoilMoistureSensorApp;
 			sourceTree = "<group>";
@@ -505,6 +503,7 @@
 				8C18E2421E4A804000E3D22D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C18E2431E4A804000E3D22D /* Build configuration list for PBXNativeTarget "SoilMoistureSensorAppTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +512,7 @@
 				8C18E2451E4A804000E3D22D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C18E2461E4A804000E3D22D /* Build configuration list for PBXNativeTarget "SoilMoistureSensorAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +521,7 @@
 				8C18E2481E4A804000E3D22D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
