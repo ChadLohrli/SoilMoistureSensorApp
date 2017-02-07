@@ -1,3 +1,8 @@
+//Download the following libraries
+//Sketch -> Include Library -> Manage Libraries -> Download [ArduinoJson],[OneWire],[DallasTemperature]
+//Download the following board module
+//http://randomnerdtutorials.com/how-to-install-esp8266-board-arduino-ide/
+
 #include <ESP8266WiFi.h>
 #include <ArduinoJson.h>
 
@@ -19,7 +24,7 @@ const int ANALOG_PIN = A0; // The only analog pin on the Thing
 const int TEMP_PIN = 13; // Digital pin to be read
 
 const int numberOfReadings = 25; //number of readings to stabilize ADC readings
-const int R2 = 100; //value of R2 for voltage divider
+const int R2 = 10000; //value of R2 for voltage divider
 
 
 OneWire oneWire(TEMP_PIN);
